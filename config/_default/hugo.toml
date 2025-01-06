@@ -1,0 +1,24 @@
+baseURL = 'roj.github.io'
+languageCode = 'es-AR'
+defaultContentLanguage = 'es'
+theme = 'enchanted-lowkey'
+title = 'emevé (m·v̄)'
+enableRobotsTXT = true
+summaryLength = 15
+
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'dracula'
+    tabWidth = 4
