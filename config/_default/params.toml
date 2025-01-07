@@ -5,7 +5,7 @@ isSinglePage = true
 description = "Hello"
 
 # Header Configuration
-avatar = "img/cat_planning.gif"
+avatar = "images/cat_planning.gif"
 
 #favicon
 favicon = "icons/favicon.ico"
