@@ -35,11 +35,10 @@ En el caso de vehículos agregamos que $d_{ig}$ no es estático en el tiempo, lo
 El paper de Pavlidi, Griffin, Puigt, Mouchtaris (2013) da una solución que me parece bastante elegante. En general en la literatura que había revisado, siempre había algunas hipótesis fuertes que hacían que no sea aplicable el método a mi caso (como conocer las señales de antemano, o que sea una sola fuente, o usar algoritmos demasiado complejos como para que se ejecuten en el hardware). En cambio, este paper diseña una solución que debería ser rápida en ejecución, permite muchas fuentes distintas y no pone restricciones fuertes sobre las señales mismas. Además, el diseño de la estrategia está modularizado y me da la sensación de que podría cambiar un componente por otro de ser necesario.
 
 
-{{< img
-  src="Diagrama.png"
+{{< svg
+  src="Diagrama.svg"
   alt="Diagrama"
   caption="Algoritmo de detección de fuentes de sonido de Pavlidi et al. (2013)." >}}
-
 
 El espíritu del algoritmo es transformar un algoritmo que detecta una sola fuente en uno que puede detectar muchas, con la hipótesis de que las fuentes no se solapan completamente en su espectro de frecuencias todo el tiempo. Para esto, arma zonas de frecuencia $\Omega$ y busca las zonas donde sólo hay una fuente. En cada una aplica el algoritmo de estimación de origen, y esto lo hace en todas las zonas, teniendo muchas estimaciones. Con esas estimaciones se arma un histograma y luego se buscan las fuentes que sean más probables, es decir, las que aparezcan muchas veces, sobre todo en ventanas de tiempo cercanas. 
 
