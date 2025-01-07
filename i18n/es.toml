@@ -1,0 +1,17 @@
+[latestPosts]
+    other = 'Últimas publicaciones'
+    
+[readMore]
+    other = 'Leer más'
+
+[summary]
+    other = 'Resumen'
+
+[estimatedReadingTime]
+    other = 'Tiempo de lectura: %d minutos'
+
+[404_title]
+    other = 'Página no encontrada'
+
+[404_text]
+    other = "Te pasaste tres pueblos! La URL no existe acá."

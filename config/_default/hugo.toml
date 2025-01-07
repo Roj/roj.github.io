@@ -1,5 +1,5 @@
 baseURL = 'roj.github.io'
-languageCode = 'es-AR'
+languageCode = 'es'
 defaultContentLanguage = 'es'
 theme = 'enchanted-lowkey'
 title = 'emevé (m·v̄)'
