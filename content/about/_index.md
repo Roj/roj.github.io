@@ -7,7 +7,7 @@ layout: "home"
 
 Me gustó la idea de _emevé_ como nombre porque tengo ganas de escribir más frecuentemente y el nombre es literalmente el [ímpetu](https://es.wikipedia.org/wiki/Cantidad_de_movimiento) :-)
 
-Antes tenía en una Raspberry Pi un servidor con Hugo levantado con un blog similar basado en un poema, pero, realmente, a veces es más simple usar Github Pages y ya. En el servidor podía presentar contenido dinámico y si pintaba alguna sección con otros componentes, una caja, de sorpresas, pero el mantenimiento después de unos años me daba paja.
+Antes tenía en una Raspberry Pi un servidor con Hugo levantado con un blog similar basado en un poema, pero, realmente, a veces es más simple usar Github Pages y ya. En el servidor podía presentar contenido dinámico y si pintaba alguna sección con otros componentes podía armarla como una caja de sorpresas, pero el mantenimiento después de unos años me daba paja.
 
 El poema, por cierto, es:
 
@@ -59,4 +59,4 @@ El poema, por cierto, es:
 > Such is the perfect man:  
 > His boat is empty. 
 
-Básicamente me gustó por esta idea de que el origen de las emociones es interior. A veces uno piensa que está enojado porque le pasó X-Y-Z, como algo externo, pero en realidad el control viene de adentro. Si uno lo piensa esos eventos como fuerzas de la naturaleza, el enojo desaparece (no me enojo con la lluvia por mojarme la ropa; a lo sumo pienso que debería haberme quedado bajo techo). Lo de la fama no, dámelá. 
+Básicamente me gustó por esta idea de que el origen de las emociones siempre es interno. Si a un tipo que está enojado le preguntan por qué, va a responder que es porque llegó tarde el tren, porque llovió, porque se rompió el paraguas. Pero enojarse es una decisión interna, no es que esas cosas trajeron el enojo consigo. No me enojo con la lluvia por mojarme la ropa; a lo sumo pienso que debería haberme quedado bajo techo. El enojo (o cualquier otra emoción, claro) tiene una función social de ayudar a moderar los comportamientos de la comunidad -- si sé que hacer algo va a enojar o entristecer a una persona, no lo hago -- pero del lado de quien siente las emociones, cuando la magnitud de la emoción trasciende la utilidad o lo razonable para la situación, sirve mucho recordar en el barquito vacío.
