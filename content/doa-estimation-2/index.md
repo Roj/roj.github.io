@@ -8,6 +8,7 @@ tags:
   - signal-processing
 ---
 
+_Este es el segundo post en la serie de detección de escapes modificados. Para ver el primero, [hacé clic acá]({{< ref "/doa-estimation-1" >}})_.
 
 Partiendo del posteo anterior, y recapitulando el algoritmo, hoy vamos a implementar lo siguiente:
 
