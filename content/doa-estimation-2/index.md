@@ -1,6 +1,6 @@
 ---
 title: "Implementación de un array de micrófonos"
-draft: true
+draft: false
 date: 2025-01-10
 description: "Diseño de una cámara acústica para evitar sonidos fuertes "
 tags:
@@ -16,7 +16,9 @@ Partiendo del posteo anterior, y recapitulando el algoritmo, hoy vamos a impleme
 3. Aplicamos la detección de origen de dirección de arribo en cada zona
 4. Juntamos las predicciones y consolidamos las estimaciones de los orígenes 
 
-### Parámetros y clase
+La idea es poder tomarnos un tiempo para entender cómo funciona el algoritmo de detección de dirección de arribo, tanto de la parte de implementación como en la derivación matemática donde se pueda (para mi humilde cerebro de ingeniero y no matemático).
+
+### Notas sobre los snippets de código
 
 Modelé el detector como una clase para poder agrupar más fácilmente los parámetros compartidos entre las funciones. Me gusta pensar el detector como un objeto que se instancia al principio del programa y a medida que llegan observaciones se corre sobre lo nuevo:
 
@@ -26,11 +28,13 @@ while signals := microphone_array.receive():
     detector.detect(signals)
 ```
 
-De esta manera, las funciones internas pueden sólo recibir los datos nuevos y argumentos que cambien con cada cálculo, pero los parámetros del detector (como las posiciones de los micrófonos, la velocidad del sonido, la cantidad de bins en los histogramas) no son necesarios de explicitar cada vez. El código del resto del post va a tener usos a `self` por esto mismo; si no está indentando es porque está en el código principal de detección, caso contrario serán funciones aparte de la clase. 
+De esta manera, las funciones internas pueden sólo recibir los datos nuevos y argumentos que cambien con cada cálculo, pero los parámetros del detector (como las posiciones de los micrófonos, la velocidad del sonido, la cantidad de bins en los histogramas) no son necesarios de explicitar cada vez. A nivel conceptual, el objeto con los parámetros representa la configuración del hardware y eso es inmutable, mientras que las señales cambian en el tiempo.
+
+El código del resto del post va a tener usos a `self` por esto mismo; si no está indentado es porque está en el código principal de detección, caso contrario serán funciones aparte de la clase. 
 
 ### Procesando las señales de los micrófonos
 
-Al recibir las señales de los micrófonos vamos a tener una lista de señales de tamaño $M$. Cada señal en sí misma va a ser una lista o vector de longitud $T \cdot f_s$, $T$ siendo el tiempo total de la grabación (ventana móvil en caso de detección de tiempo real) y $f_s$ la frecuencia de sampleo. Fundamentalmente, es un vector de valores reales sin componente imaginario, así que para obtener la FFT podemos usar `rfft` que es un poco más rápido que el método general y no devuelve las frecuencias negativas.
+Al recibir las señales de los micrófonos vamos a tener una lista de señales de tamaño $M$. Cada señal en sí misma va a ser un vector de longitud $T \cdot f_s$, $T$ siendo el tiempo total de la grabación (ventana móvil en caso de detección de tiempo real) y $f_s$ la frecuencia de sampleo. Fundamentalmente, es un vector de valores reales, así que para obtener la FFT podemos usar `rfft` que es un poco más rápido que el método general y no devuelve las frecuencias negativas.
 
 Si el arreglo de señales lo recibimos en `mic_signals`, procedemos a obtener las ventanas de tiempo superpuestas -- buscamos aplicar la FFT sobre ventanas de aprox 2048 elementos, y queremos que haya solapamiento entre una ventana y la subsiguiente -- y luego calculamos las transformadas:
 
@@ -39,6 +43,9 @@ Si el arreglo de señales lo recibimos en `mic_signals`, procedemos a obtener la
 self.mic_time_slices = []
 for mic_i, signal in enumerate(self.mic_signals):
     self.mic_time_slices.append(list())
+    # La función `overlapping_slices` nos genera los intervalos [a, b], [c, d], etc
+    # tal que entre dos consecutivos siempre haya un solapamiento fijo y que cada
+    # intervalo tenga el tamaño pedido. p.ej. b-c = overlap_size; b-a=slice_size.
     for start, stop in overlapping_slices(
         self.parameters.slice_size, self.parameters.overlap_size, len(signal)
     ):
@@ -49,35 +56,45 @@ self.mic_fft_slices = [
     for slices in self.mic_time_slices
 ]
 
-
 self.freq_bins = scipy.fft.rfftfreq(
     self.parameters.slice_size, 1 / self.parameters.sampling_frequency
 )
 ```
+
+Ahora que tenemos la descomposición en frecuencias para cada ventana de tiempo de la información que llega a cada micrófono, vamos a analizar las zonas de frecuencias para detectar las fuentes de sonido.
 
 
 ### Definición de zona de una sola fuente
 
 La idea de la estrategia es transformar un algoritmo de detección de una sola fuente en uno que pueda detectar múltiples. Para esto primero detecta en qué zonas hay una sola fuente y luego opera el algoritmo sobre ellas. 
 
-Definimos cada zona $\Omega$ como algunas bandas de frecuencia $\omega$ contiguas, por ejemplo, seis frecuencias contiguas de los bins de la FFT. Para cada banda nos fijamos si el promedio (a lo largo de todo el array de micrófonos) de la correlación entre las observaciones de un micrófono y el adyacente es mayor a cierto límite:
+Definimos cada zona $\Omega$ como algunas bandas de frecuencia $\omega$ contiguas, por ejemplo, seis frecuencias contiguas de los bins de la FFT (`freq_bins`). Teniendo esta definición, podemos calcular la covarianza _entre dos micrófonos_ en una zona de frecuencias de la siguiente de manera:
 
+$$R_{i,j}^\prime(\Omega) \overset{\underset{\mathrm{def} }{}}{=} \sum_{\omega\in\Omega} \left| X_i(\omega)\cdot X_j(\omega)\right|$$
 
-$$\bar{r^\prime} (\Omega)  \geq 1 - \epsilon$$
+Como va a haber zonas de mayor intensidad y de menos, necesitamos normalizar para poder tener un criterio uniforme de detección. Para esto armamos un coeficiente de correlación, o sea una covarianza divididas las varianzas[^1]:
 
-El coeficiente de correlación, como siempre, se define como una cross-correlación dividido la norma de cada vector. En este caso, es una correlación entre dos micrófonos en cierta banda de frecuencia:
+[^1]: Con la salvaguarda de que son covarianzas y correlaciones usando L1 y no L2.
 
 $$r^\prime_{i,j} (\Omega) \overset{\underset{\mathrm{def} }{}}{=}
 \frac{R\_{i,j}^\prime(\Omega)}{\sqrt{R\_{i,i}^\prime(\Omega)\cdot R\_{j,j}^\prime(\Omega)}}$$
 
-Y por último, la cross-correlación es la suma de los productos de las transformadas de Fourier para las frecuencias en la zona:
+Ahora el criterio de detección es que el promedio a lo largo de todo el array de micrófonos de la correlación entre las observaciones de un micrófono y el adyacente sea mayor a cierto límite:
 
-$$R_{i,j}^\prime(\Omega) \overset{\underset{\mathrm{def} }{}}{=} \sum_{\omega\in\Omega} \left| X_i(\omega)\cdot X_j(\omega)\right|$$
+$$\bar{r^\prime} (\Omega)  \geq 1 - \epsilon$$
 
-En definitiva:
+En definitiva, implementando las ecuaciones y teniendo en cuenta que el análisis siempre es para la ventana de tiempo actual, nos queda un código como el siguiente:
 
 ```python
-def correlation(self, mic1, mic2, timestep, f_from, f_to, mic_fft_slices):
+def covariance(
+    self, 
+    mic1: int, 
+    mic2: int, 
+    timestep: int, 
+    f_from: int, 
+    f_to: int, 
+    mic_fft_slices: list,
+):
     return np.linalg.norm(
         mic_fft_slices[mic1][timestep][f_from:f_to]
         * mic_fft_slices[mic2][timestep][f_from:f_to],
@@ -92,12 +109,12 @@ def correlation_coefficient(
     f_to: int,
     mic_fft_slices: list,
 ):
-    # Cross correlation
-    corr = self.correlation(mic1, mic2, timestep, f_from, f_to, mic_fft_slices)
+    # Covarianza entre dos micrófonos
+    cov = self.covariance(mic1, mic2, timestep, f_from, f_to, mic_fft_slices)
 
-    # Correlation coefficient
-    coeff = corr / np.sqrt(
-        self.correlation(
+    # Normalizando con la varianza de cada micrófono
+    coeff = cov / np.sqrt(
+        self.covariance(
             mic1,
             mic1,
             timestep=timestep,
@@ -105,7 +122,7 @@ def correlation_coefficient(
             f_to=f_to,
             mic_fft_slices=mic_fft_slices,
         )
-        * self.correlation(
+        * self.covariance(
             mic2,
             mic2,
             timestep=timestep,
@@ -115,17 +132,21 @@ def correlation_coefficient(
         )
     )
     return coeff
+```
 
+Y el criterio nos queda:
+
+```python
 def is_single_source_zone(
     self, zone_index: int, timestep: int, mic_fft_slices: list
 ) -> bool:
     avg = 0
     omega_index = self.parameters.adjacent_zone * zone_index
-    for i in range(1, self.parameters.num_mics):
+    for i in range(self.parameters.num_mics):
         next_mic = (i + 1) % self.parameters.num_mics
         avg += (
             (1 / self.parameters.num_mics)
-            * self.cross_correlation(
+            * self.correlation_coefficient(
                 i,
                 next_mic,
                 timestep,
@@ -139,7 +160,7 @@ def is_single_source_zone(
 
 ### Detección de dirección en la zona
 
-Ahora sí, debemos definir cómo se calcula la dirección de arribo de señal sabiendo que para cierto intervalo de tiempo y en ciertas frecuencias sólo tenemos una fuente. Para esto tenemos que hacer un poco más de matemática 🫠. Partamos del objetivo a maximizar:
+Ahora sí, debemos definir cómo se calcula la dirección de arribo de señal sabiendo que para cierto intervalo de tiempo y en ciertas frecuencias sólo tenemos una fuente. Para esto tenemos que hacer un poco más de matemática 🫠. Partamos del objetivo a maximizar para tener la idea general y vayamos incluyendo las definiciones del paper:
 
 $$\hat{\theta}_\omega = \underset{0\leq \theta \lt 2\pi}{\mathrm{argmax}} \left | \mathrm{CICS}^{(\omega)} (\phi) \right |$$
 
@@ -208,7 +229,7 @@ Vamos ahora con la otra definición, que es más directa:
 
 $$G_{m_im_{i+1}}(\omega) = \frac{X_i(\omega) \cdot X_{i+1}^\*(\omega)}{\left|X_i(\omega) \cdot X_{i+1}^*(\omega)\right|}$$
 
-Esta parte es la que más me hace ruido porque en el paper original de los arrays circulares de micrófonos se usa otra definición. Además, hacen distinción entre $\phi$ y $\theta$, cosa que en este paper parece inconsistente. En el funcional original de CICS están _ambos_ como parámetros y recién luego usan $\phi = \theta$ en la maximización, pero este componente queda distinto. En fin, por ahora usamos como está en este paper y después veremos si hay que cambiarlo (puede haber habido algún error al redactar la publicación).
+(Esta parte es la que más me hace ruido porque en el paper original de los arrays circulares de micrófonos se usa otra definición. Además, hacen distinción entre $\phi$ y $\theta$, cosa que en este paper parece inconsistente. En el funcional original de CICS están _ambos_ como parámetros y recién luego usan $\phi = \theta$ en la maximización, pero este componente queda distinto. En fin, por ahora usamos como está en este paper y después veremos si hay que cambiarlo -- puede haber habido algún error al redactar la publicación.) 
 
 Entonces nos queda:
 
@@ -238,7 +259,6 @@ def negative_cics(
   value = 0
   omega = freq_bins[omega_index]
   for i in range(self.parameters.num_mics):
-      # +1 because we use zero-index; eqn uses 1-index
       phase_rotation_factor = np.exp(
           -1j
           * omega
@@ -248,11 +268,12 @@ def negative_cics(
               - np.sin(
                   self.parameters.A_prime
                   - phi
+                  # Agregamos un +1 porque el código indexa comenzando en 0
                   + (i + 1 - 1) * self.parameters.angle_rotation
               )
           )
       )
-      # What happens in the last microphone?? I'm guessing wrap-around
+      # Pegamos la vuelta en el último micrófono
       cross_power = mic_fft_slices[i][t][omega_index] * np.conj(
           mic_fft_slices[((i + 1) % self.parameters.num_mics)][t][omega_index]
       )
@@ -262,10 +283,13 @@ def negative_cics(
   return -np.abs(value)
 ```
 
+¡Fiuf!
 
 ### Consolidación de estimaciones
 
-Uno de los trucos es que en realidad se hace la estimación anterior varias veces por cada zona. Se toman las $d$ frecuencias más importantes:
+Con la sección anterior ya tenemos un funcional que podemos minimizar para poder encontrar _una_ estimación de dirección de arribo. Pero, de base, tenemos varias zonas de frecuencia y ventanas de tiempo. Esta sección trabaja en cómo se generan esas estimaciones y cómo se juntan hasta tener un solo conjunto de predicciones.
+
+De base, uno de los trucos es que en realidad se hace la estimación anterior varias veces por cada zona. Se toman las $d$ frecuencias más importantes:
 
 ```python
 def d_highest_peaks(self, freq_from, freq_to, timestep, d, mic_fft_slices):
@@ -342,7 +366,13 @@ self.bins, self.x = np.histogram(
 )
 ```
 
-Ahora, no es sólo cuestión de sacar los picos más altos porque es posible que una fuente que viene del ángulo de $140^\circ$ se haya estimado con valores $130^\circ$, $145^\circ$, etc, para cada una de las frecuencias que componen la señal. Por eso, es necesario eliminar la contribución de esa fuente al histograma. La estrategia acá es similar a la de _Matching Pursuit_; si pensamos al histograma como una suma contribuciones de fuentes más un poco de ruido, lo que podemos hacer es ir detectando esas fuentes y restar su contribución hasta quedarnos sólo con el ruido. 
+Ahora, no es sólo cuestión de sacar los picos más altos porque es posible que una fuente que viene del ángulo de $140^\circ$ se haya estimado con valores $130^\circ$, $145^\circ$, etc, para cada una de las frecuencias que componen la señal. Por eso, es necesario eliminar la contribución de esa fuente al histograma. La estrategia acá es similar a la de _Matching Pursuit_; si pensamos al histograma como una suma contribuciones de fuentes más un poco de ruido, lo que podemos hacer es ir detectando esas fuentes y restar su contribución hasta quedarnos sólo con el ruido.  Por ejemplo:
+
+{{< img
+  src="atoms.png"
+  alt="Histograma con las estimaciones de arribo y una fuente detectada"
+  width="100"
+  caption="El primer histograma muestra la consolidación de todas las estimaciones, para todas las frecuencias de interés, para todas las zonas de una sola fuente, sobre varias ventanas de tiempo consecutivas. Se ve que hay actividad sobre todos los ángulos, pero con montañas concentradas en distintos picos. En la segunda figura se detecta no sólo el pico sino también la contribución de ese pico al histograma. El siguiente paso es eliminar esa contribución al histograma y seguir buscando fuentes de sonido. Figura tomada de Pavlidi et al. (2013)." >}}
 
 Primero definimos una contribución base con forma de una ventana de Blackman (el tamaño es un parámetro 🙁). Calculamos todas las contribuciones posibles, es decir, tener una ventana en cada posición del histograma.
 
@@ -356,6 +386,9 @@ C = np.array([np.roll(c, k) for k in range(self.parameters.histogram_bins)])
 
 La idea ahora es en cada paso calcular cuál de esas contribuciones posibles correlaciona más con el histograma y restar esa ventana hasta que el tamaño de la correlación sea por debajo de un umbral -- es decir, que lo que quede sea básicamente ruido. La correlación, como siempre, queda como un producto interno. En este caso, como tenemos la matriz con todas las transposiciones posibles de la ventana de contribución, tenemos el producto $C \mathbf{y}$ que nos da un vector de correlaciones. Cada correlación nos dice la intensidad con la que el histograma $\mathbf{y}$ calza con la transposición de la ventana de Blackman. Como el algoritmo es iterativo, el histograma se va a ir actualizando a medida que restamos las contribuciones ya encontradas, de mayor a menor.
 
+
+
+
 ```python
 current_histogram = self.bins
 self.atoms = []
@@ -364,18 +397,28 @@ self.window_energy = np.dot(c, c)
 self.energy_threshold = self.bins.mean()
 self.atom_contributions = []
 for j in range(self.parameters.max_sources):
-    # We skip the further-than condition from step 3 of the counting algorithm (P5)
-    # because it should be solved by the contribution step.
+    # El paper original incluye una condición de que las fuentes de sonido deben 
+    # estar a cierta distancia entre sí de mínima, pero acá lo obviamos porque la
+    # eliminación de la contribución ya debería encargarse de eso.
     corr_window = C.dot(current_histogram)
     position = np.argmax(corr_window)
+    # Condición de corte: el nuevo pico es de baja intensidad
     atom_energy = corr_window.max() / self.window_energy
     if atom_energy < self.energy_threshold:
         break
     atom_contribution = C[position, :] * atom_energy
+    # Eliminamos la contribución de la fuente actual al histograma y seguimos iterando.
     current_histogram = current_histogram - atom_contribution
     self.atoms.append(position)
     self.atom_energies.append(atom_energy)
     self.atom_contributions.append(atom_contribution)
 ```
 
-De esta manera obtenemos tanto la cantidad de las fuentes como las posiciones de cada una.
+¡De esta manera obtenemos tanto la cantidad de las fuentes como las posiciones de cada una!
+
+### Conclusiones
+
+
+El objetivo de este post era hacer una revisión en profundidad de cómo puede funcionar un algoritmo de detección de dirección de arribo, tanto viendo la matemática como una implementación. Reconozco que la parte más misteriosa sigue siendo el desarrollo de la ecuación de $\mathrm{CICS}$ -- la definición surge de otro paper, de otro equipo, de hace varios años y toman un par de diferencias -- pero a grandes rasgos la idea de tomar un método que sólo funciona para _una_ sola fuente y generalizarlo me parece que queda mucho más clara ahora. De hecho, queda tan modularizado que es posible reemplazar ese método puntual por otro, siempre que mantenga hipótesis semejantes al actual.
+
+El siguiente texto tiene como objetivo mostrar los resultados de este método y compararlo con otros disponibles en bibliotecas para poder llegar a unas conclusiones :-) 
