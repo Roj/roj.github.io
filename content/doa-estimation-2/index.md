@@ -1,8 +1,8 @@
 ---
-title: "Implementación de un array de micrófonos"
+title: "Detección de escapes modificados: implementación"
 draft: false
 date: 2025-01-10
-description: "Diseño de una cámara acústica para evitar sonidos fuertes "
+description: "Deep-dive en un algoritmo de estimación de dirección de arribo e implementación."
 tags:
   - doa-estimation
   - signal-processing

@@ -2,7 +2,7 @@
 title: "Detección de escapes modificados"
 draft: false
 date: 2025-01-07
-description: "Diseño de una cámara acústica para evitar sonidos fuertes "
+description: "Diseño de una cámara acústica para detectar orígenes de sonidos fuertes en las ciudades a la noche."
 tags:
   - doa-estimation
   - signal-processing
