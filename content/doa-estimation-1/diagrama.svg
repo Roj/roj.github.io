@@ -24,10 +24,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2.6280163"
-     inkscape:cx="193.49195"
-     inkscape:cy="291.66486"
-     inkscape:window-width="2304"
+     inkscape:zoom="7.4331526"
+     inkscape:cx="363.103"
+     inkscape:cy="111.72917"
+     inkscape:window-width="3840"
      inkscape:window-height="2070"
      inkscape:window-x="0"
      inkscape:window-y="42"
@@ -804,6 +804,12 @@
          result="color2"
          id="feColorMatrix83526" />
     </filter>
+    <rect
+       x="101.28884"
+       y="408.58298"
+       width="113.74558"
+       height="15.952"
+       id="rect37329-7-6-3" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -845,9 +851,9 @@
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect37329);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.982001"><tspan
            x="101.28906"
            y="419.46603"
-           id="tspan4844"><tspan
+           id="tspan8792"><tspan
              style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-             id="tspan4842">Recibir las señales</tspan></tspan></text>
+             id="tspan8790">Recibir las señales</tspan></tspan></text>
     </g>
     <rect
        style="fill:#16c47f;stroke:#d0dde7;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.00590258;paint-order:markers fill stroke"
@@ -871,9 +877,9 @@
        inkscape:export-ydpi="299.96851"><tspan
          x="101.28906"
          y="419.46603"
-         id="tspan4848"><tspan
+         id="tspan8796"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4846">Aplicar FFT a cada una:</tspan></tspan></text>
+           id="tspan8794">Aplicar FFT a cada una:</tspan></tspan></text>
     <rect
        style="fill:#16c47f;stroke:#d0dde7;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.00590258;paint-order:markers fill stroke"
        id="rect34283-7-0"
@@ -896,15 +902,22 @@
        inkscape:export-ydpi="299.96851"><tspan
          x="101.28906"
          y="419.46603"
-         id="tspan4852"><tspan
+         id="tspan8800"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4850">Armar zonas de frecuencias
-</tspan></tspan><tspan
+           id="tspan8798">Armar zonas de frecuencias</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,66.016168,-0.38712007)"
+       id="text37327-2-6-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect37329-7-6-3);fill:#000000;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/home/joaquintz/Documents/blog/diagrama.png"
+       inkscape:export-xdpi="299.96851"
+       inkscape:export-ydpi="299.96851"><tspan
          x="101.28906"
-         y="434.58603"
-         id="tspan4856"><tspan
+         y="419.46603"
+         id="tspan8804"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4854">     tal que se cumpla:</tspan></tspan></text>
+           id="tspan8802">tal que se cumpla:</tspan></tspan></text>
     <rect
        style="fill:#16c47f;stroke:#ffffff;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect34283-7-0-4"
@@ -927,14 +940,14 @@
        inkscape:export-ydpi="299.96851"><tspan
          x="101.28906"
          y="419.46603"
-         id="tspan4860"><tspan
+         id="tspan8808"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4858">Por cada zona buscar </tspan></tspan><tspan
+           id="tspan8806">Por cada zona buscar </tspan></tspan><tspan
          x="101.28906"
          y="434.58603"
-         id="tspan4864"><tspan
+         id="tspan8812"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4862">direcciones factibles:</tspan></tspan></text>
+           id="tspan8810">direcciones factibles:</tspan></tspan></text>
     <rect
        style="fill:#16c47f;stroke:#d0dde7;stroke-width:0.264999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:0.00590258;paint-order:markers fill stroke"
        id="rect34283-7-0-4-9"
@@ -957,30 +970,30 @@
        inkscape:export-ydpi="299.96851"><tspan
          x="101.28906"
          y="419.46603"
-         id="tspan4868"><tspan
+         id="tspan8816"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4866">Armar un histograma 
+           id="tspan8814">Armar un histograma 
 </tspan></tspan><tspan
          x="101.28906"
          y="434.58603"
-         id="tspan4872"><tspan
+         id="tspan8820"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4870">de las estimaciones en cada </tspan></tspan><tspan
+           id="tspan8818">de las estimaciones en cada </tspan></tspan><tspan
          x="101.28906"
          y="449.70602"
-         id="tspan4876"><tspan
+         id="tspan8824"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4874">ventana de tiempo y luego </tspan></tspan><tspan
+           id="tspan8822">ventana de tiempo y luego </tspan></tspan><tspan
          x="101.28906"
          y="464.82602"
-         id="tspan4880"><tspan
+         id="tspan8828"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4878">encontrar los posibles </tspan></tspan><tspan
+           id="tspan8826">encontrar los posibles </tspan></tspan><tspan
          x="101.28906"
          y="479.94601"
-         id="tspan4884"><tspan
+         id="tspan8832"><tspan
            style="font-weight:normal;font-family:Iosevka;-inkscape-font-specification:Iosevka;fill:#ffffff"
-           id="tspan4882">orígenes</tspan></tspan></text>
+           id="tspan8830">orígenes</tspan></tspan></text>
     <g
        inkscape:label=""
        transform="matrix(0.43545964,0,0,0.43545964,14.783804,67.973374)"
