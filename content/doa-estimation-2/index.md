@@ -1,7 +1,7 @@
 ---
 title: "Detección de escapes modificados: implementación"
 draft: false
-date: 2025-01-10
+date: 2025-01-22
 description: "Deep-dive en un algoritmo de estimación de dirección de arribo e implementación."
 tags:
   - doa-estimation
