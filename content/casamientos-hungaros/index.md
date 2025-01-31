@@ -5,7 +5,7 @@ date: 2025-01-31
 description: "Estaba implementando una función que pensé que iba a ser casi trivial y entré en un rabbit hole hermoso."
 ---
 
-Hoy estaba consolidando el código para hacer el benchmark de los algoritmos y encontré que había implementado el mismo pedazo de código de dos maneras distintas. Intentando ver cuál era mejor me di cuenta que.. ¡ambas estaban mal! Me lancé al agujero negro y encontré dos cambios de representaciones que hacen que el problema se vincule con uno ya conocido. 
+Hoy estaba consolidando el código para hacer el benchmark de los algoritmos y encontré que había implementado el mismo fragmento de código de dos maneras distintas. Intentando ver cuál era mejor me di cuenta que.. ¡ambas estaban mal! Me lancé al agujero negro y encontré dos cambios de representaciones que hacen que el problema se vincule con uno ya conocido. 
 
 El contexto es que, para poder comparar dos algoritmos que estiman la dirección de arribo de distintas fuentes de sonido, armé un banco de simulaciones que calculan el error promedio de cada técnica. En cada iteración se generan aleatoriamente las posiciones de las fuentes. Con estas posiciones y las señales en cada fuente se generan las señales en los micrófonos, con los retardos y atenuaciones apropiadas para el viaje que emprendieron esas onditas (ver ecuación [acá]({{< ref "/doa-estimation-1" >}})). El algoritmo toma esas señales, hace cálculos, y devuelve las direcciones estimadas de arribo de cada una de las fuentes. El problema concreto es que esas direcciones de arribo no tienen un orden en particular respecto a las fuentes. El algoritmo sólo ve una suma de señales, ¡y en la suma no hay orden! Para siquiera poder calcular el error del algoritmo, primero habría que entender a cuál fuente se puede referir cada dirección de arribo.
 
@@ -34,7 +34,7 @@ $$ \frac{(180-179) + (359-0)}{2} = 180$$
 
 ¡y sin embargo la segunda opción es la correcta! $359^\circ$ está a solo un grado de $0^\circ$, y el error promedio debería quedar entonces en sólo $1^\circ$, no en $179^\circ$. 
 
-Una solución horrible que se me ocurrió brevemente fue agregar la opción de sumarle/restarle $2\pi$ o $360^\circ$ a la dirección predicha para ver si conseguía un error menor.. pero esto tendría que hacerse para cada una de los ángulos predichos.. o sumándole el período a algunos y otros no.. entonces la solución de permutaciones que ya de por sí era $O(N!)$ pasaba a tener que considerar si cambiarle el período a cada una de las predicciones, lo cual genera que sea $O(N! \times 2^N)$ que, si bien sigue siendo $O(N!)$ (ya que $N!$ crece más rápido), es fatal.
+Una solución horrible que se me ocurrió brevemente fue agregar la opción de sumarle/restarle $2\pi$ o $360^\circ$ a la dirección predicha para ver si conseguía un error menor.. pero esto tendría que hacerse para cada una de los ángulos predichos.. o sumándole el período a algunos y otros no.. entonces la solución de permutaciones que ya de por sí era $O(N!)$ pasaba a tener que considerar si cambiarle el período a cada una de las predicciones, lo cual genera que sea $O(N! \times 2^N)$. Fatal.
 
 Fui a regar las plantas y no se me ocurrió una forma sencilla de que estas diferencias se tuvieran en cuenta en el círculo, que es algo muy fácil de ver:
 
