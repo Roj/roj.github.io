@@ -5,7 +5,7 @@ tableOfContents: true
 ---
 
 
-En este humilde blog escribo unos pequeños textos, mayormente desde la perspectiva de las trincheras de la computación, con algún otro interés intercalado por ahí.
+En este blog escribo textos mayormente desde la perspectiva de las trincheras de la computación, con algún otro interés intercalado por ahí.
 
 Siempre me gustaron los blogs técnicos y en general las historias de ciencia e ingeniería, y tanto más cuando se cuentan con lujo de detalle. Es más, las historias de descubrir o construir algo raramente son directas y suelen tener múltiples peripecias; éstas terminan siendo notas al margen aún cuando son muy divertidas. En esas notas suele haber serendipia y son muy lindas de contar. Si te copan estos desvaríos, ojalá te guste el blog.
 
