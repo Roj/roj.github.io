@@ -3,13 +3,9 @@
 {{ $caption := .Get "caption" }}
 {{ $captionPosition := .Get "caption-position" }}
 
-<style>
-  svg { margin: auto;}
-</style>
-
 <figure>
   <div>
-    {{ readFile $img.RelPermalink | safeHTML }}
+    {{ readFile $img.RelPermalink | replaceRE "<svg" "<svg style='margin: auto'" | safeHTML }}
   </div>
 
   {{ with $caption }}
