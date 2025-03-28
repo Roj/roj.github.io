@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.89284mm"
+   height="56.493965mm"
+   viewBox="0 0 139.89284 56.493965"
+   version="1.1"
+   id="svg61104"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="microbatching.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview61106"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.7165763"
+     inkscape:cx="199.91518"
+     inkscape:cy="268.12311"
+     inkscape:window-width="3840"
+     inkscape:window-height="2070"
+     inkscape:window-x="0"
+     inkscape:window-y="42"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs61101">
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-6-8-2-48-0" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-9-8-9" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-9-9-6-9" />
+    <rect
+       x="117.717"
+       y="378.96539"
+       width="43.832726"
+       height="9.0793762"
+       id="rect131301-1-5" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-89-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path65754-1-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker61037"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path61035" />
+    </marker>
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-6-8-4-3" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-6-8-4-4-25-8" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path65754-5-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-2-2-3-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path65754-9-8-6-5" />
+    </marker>
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="54.030468"
+       height="7.6809587"
+       id="rect75871-7-8" />
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="67.95533"
+       height="6.6391702"
+       id="rect75871-7-8-1" />
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="54.030468"
+       height="7.6809587"
+       id="rect75871-7-3-4-7" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-6-8-2-48-0-6" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-9-8-9-6" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-9-9-6-9-49" />
+    <rect
+       x="117.717"
+       y="378.96539"
+       width="43.832726"
+       height="9.0793762"
+       id="rect131301-1-5-5" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-89-0-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path65754-1-3-4" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker67184"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path67182" />
+    </marker>
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-6-8-4-3-8" />
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="54.030468"
+       height="7.6809587"
+       id="rect75871-7-8-7" />
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="67.95533"
+       height="6.6391702"
+       id="rect75871-7-8-1-1" />
+    <rect
+       x="104.58536"
+       y="85.511559"
+       width="54.030468"
+       height="7.6809587"
+       id="rect75871-7-3-4-7-7" />
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path65754" />
+    </marker>
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-9-9-6-9-4" />
+    <marker
+       style="overflow:visible"
+       id="marker67195"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path67193" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-130.59932,-134.86978)">
+    <rect
+       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect994-6-7-7-2-2-8"
+       width="42.418304"
+       height="15.586175"
+       x="166.0554"
+       y="135.11978" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.94878934,0,0,0.96622202,153.38717,53.909705)"
+       id="text54066-7-0-6-5-8"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-8-2-48-0-6);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+         x="24.636719"
+         y="94.595596"
+         id="tspan67781"><tspan
+           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+           id="tspan67779">Broker</tspan></tspan></text>
+    <rect
+       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect994-6-3-7-6"
+       width="42.418304"
+       height="15.586175"
+       x="228.07385"
+       y="150.04962" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.83860348,0,0,0.85292528,212.85615,79.752072)"
+       id="text54066-8-3-0"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-9-6);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+         x="24.636719"
+         y="93.329388"
+         id="tspan67785"><tspan
+           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+           id="tspan67783">Microbatch engine</tspan></tspan></text>
+    <g
+       id="g65114"
+       transform="matrix(1.6666667,0,0,1.6666667,108.32003,-194.8995)">
+      <rect
+         style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect994-6-3-6-5-4"
+         width="15.335003"
+         height="6.5781322"
+         x="13.367572"
+         y="208.54939" />
+      <text
+         xml:space="preserve"
+         transform="matrix(0.50316208,0,0,0.51175516,4.2369299,164.92422)"
+         id="text54066-8-0-7-6"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-9-6-9-49);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+           x="24.636719"
+           y="93.329388"
+           id="tspan67789"><tspan
+             style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+             id="tspan67787">Producer</tspan></tspan></text>
+    </g>
+    <circle
+       id="path65527-9-8-0"
+       style="fill:#ff6361;stroke:#ff6361;stroke-width:0.440972"
+       cx="269.30624"
+       cy="146.82167"
+       r="0.0048894235" />
+    <circle
+       id="path65529-0-2-9"
+       style="fill:#ff6361;stroke:#ff6361;stroke-width:0.440972"
+       cx="269.30624"
+       cy="146.82167"
+       r="0.0048894235" />
+    <g
+       id="g65108"
+       transform="matrix(1.6666667,0,0,1.6666667,108.32003,-195.02775)">
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect127841-5-7"
+         width="9.1672487"
+         height="2.1977675"
+         x="43.198647"
+         y="210.81653" />
+      <ellipse
+         style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path127613-5-0-7"
+         cx="52.39138"
+         cy="211.91541"
+         rx="0.84650296"
+         ry="1.0988837" />
+      <ellipse
+         style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="path127613-1-5"
+         cx="43.384407"
+         cy="211.91541"
+         rx="0.95444578"
+         ry="1.0988837" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44097223,0,0,0.44097223,127.66075,-6.4035129)"
+       id="text131299-9-9"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-5-5);fill:#808080;fill-opacity:1;stroke:none"><tspan
+         x="117.7168"
+         y="383.80217"
+         id="tspan67793"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+           id="tspan67791">Source queue</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#808080;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect144284-0-3"
+       width="42.418304"
+       height="32.018532"
+       x="166.0554"
+       y="135.11978" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:0.275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-89-0-0)"
+       d="m 156.15766,158.1646 22.87897,0"
+       id="path145815-7-8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect994-6-3-6-5-4"
+       inkscape:connection-end="#path127613-1-5" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#808080;stroke-width:0.275;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-89-0-0)"
+       d="m 197.0498,158.15613 31.02405,-0.18616"
+       id="path145919-3-3"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#path127613-5-0-7"
+       inkscape:connection-end="#rect994-6-3-7-6" />
+    <rect
+       style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect20140-0-6-0-7"
+       width="5.2348485"
+       height="1.5907419"
+       x="181.60388"
+       y="-168.18599"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect20140-0-6-0-2-99"
+       width="5.2348485"
+       height="1.5907419"
+       x="181.60388"
+       y="-170.40143"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect20140-0-6-0-2-9-3"
+       width="5.2348485"
+       height="1.5907419"
+       x="181.60388"
+       y="-172.61688"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect20140-0-6-0-2-4-2"
+       width="5.2348485"
+       height="1.5907419"
+       x="181.60388"
+       y="-174.83235"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect994-6-7-7-8-4"
+       width="28.858242"
+       height="10.603668"
+       x="185.98398"
+       y="174.39365" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.64548533,0,0,0.65734523,171.13736,118.90667)"
+       id="text54066-7-0-0-3"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-8-4-3-8);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.676973"><tspan
+         x="24.636719"
+         y="94.595596"
+         id="tspan67797"><tspan
+           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+           id="tspan67795">Inference job</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44097223,0,0,0.44097223,182.86461,138.70079)"
+       id="text75869-4-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-7-8-7);fill:#808080;fill-opacity:1;stroke:none"><tspan
+         x="104.58594"
+         y="90.349049"
+         id="tspan67801"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+           id="tspan67799">Trigger task</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44097223,0,0,0.44097223,182.03762,143.41482)"
+       id="text75869-4-5-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-7-8-1-1);fill:#808080;fill-opacity:1;stroke:none"><tspan
+         x="104.58594"
+         y="90.349049"
+         id="tspan67805"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+           id="tspan67803">Buffered batch</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.44097223,0,0,0.44097223,115.74985,138.34072)"
+       id="text75869-4-1-6-7"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-7-3-4-7-7);fill:#808080;fill-opacity:1;stroke:none"><tspan
+         x="104.58594"
+         y="90.349049"
+         id="tspan67809"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+           id="tspan67807">Insert batch</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 249.283,165.6358 v 14.05968 h -34.44078"
+       id="path63346"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect994-6-3-7-6"
+       inkscape:connection-end="#rect994-6-7-7-8-4" />
+    <rect
+       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect994-6-3-6-5-4-9"
+       width="25.558338"
+       height="10.963553"
+       x="130.59932"
+       y="174.39365" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.83860348,0,0,0.85292528,114.03786,101.06099)"
+       id="text54066-8-0-7-6-2"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-9-6-9-4);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+         x="24.636719"
+         y="93.329388"
+         id="tspan67813"><tspan
+           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+           id="tspan67811">Target DB</tspan></tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#7f7f7f;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 185.98398,179.741 -29.82632,0.0941"
+       id="path65218"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect994-6-7-7-8-4"
+       inkscape:connection-end="#rect994-6-3-6-5-4-9" />
+    <g
+       id="g66005"
+       transform="matrix(0,-1.6666667,1.6666667,0,-146.85793,317.37863)">
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140-0-9-0"
+         width="3.6822312"
+         height="1.1158906"
+         x="75.691429"
+         y="227.95631" />
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140-0-9-1-68"
+         width="3.6822312"
+         height="1.1158906"
+         x="75.691429"
+         y="229.50021" />
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140-0-9-1-9-9"
+         width="3.6822312"
+         height="1.1158906"
+         x="75.691429"
+         y="231.04411" />
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140-0-9-1-6-2"
+         width="3.6822312"
+         height="1.1158906"
+         x="75.691429"
+         y="232.58803" />
+    </g>
+  </g>
+</svg>
