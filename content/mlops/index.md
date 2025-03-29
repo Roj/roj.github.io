@@ -9,7 +9,7 @@ tags:
   - notes
 ---
 
-En el último me puse a repasar un poco algunos patrones de MLOps para prepararme para entrevistas. Particularmente me parecía interesante investigar los patrones de despliegue de modelos. En mi experiencia las cosas caían en real-time o en batch, lo primero se hacía con una API y lo segundo directamente con las máquinas virtuales usadas como _workers_ del orquestador (o lanzar un job en SageMaker .. Databricks .. etc.), pero seguramente había más patrones para distintas arquitecturas con distintos _trade-offs_. 
+En el último tiempo me puse a repasar un poco algunos patrones de MLOps para prepararme para entrevistas. Particularmente me parecía interesante investigar los patrones de despliegue de modelos. En mi experiencia las cosas caían en real-time o en batch, lo primero se hacía con una API y lo segundo directamente con las máquinas virtuales usadas como _workers_ del orquestador (o lanzar un job en SageMaker .. Databricks .. etc.), pero seguramente había más patrones para distintas arquitecturas con distintos _trade-offs_. 
 
 Encontré que no había _un_ recurso listando todas las posibles maneras de embeber un modelo en una arquitectura de datos. Peor, me topé con cosas como el libro de _Practical MLOps_ de O'Reilly, un libro que se la pasa explicando cosas que no vienen al caso (como qué es un algoritmo greedy, qué es el TSP, cómo armar un script en Python o una guía para trabajar remoto) y sólo explica tres patrones de despliegue. En otros casos, había blog posts que estaban _muy_ optimizados para el SEO y cada párrafo intentaba mechar la mayor cantidad de palabras clave posible, lo cual era muy engorroso de leer.
 
@@ -32,12 +32,14 @@ Insisto acá con que esto es aparte de la arquitectura común de backend, fronte
   height="500"
   caption="Ejemplo de arquitectura Lambda estándar. En la parte batch directamente incluímos el patrón de arquitectura Medallion. Generalmente se puede también armar una capa de serving que pueda resolver consultas yendo a cada capa. Las capas pueden estar conectadas; parte de la información batch puede ser replicada en las tablas de tiempo real para facilitar algunas consultas. Las queries que marcamos a la derecha no son de usuarios finales sino de otros servicios de la empresa, para armar reportes, ejecutar modelos predictivos y más." >}}
 
-El objetivo de la parte batch es tener un dataset que se aumenta de manera incremental. Una forma común par resolver esto es la [arquitectura Medallion](https://www.databricks.com/glossary/medallion-architecture) que divide el proceso de incorporar los datos y re-generar las tablas finales en etapas.
+El objetivo de la parte batch es tener un dataset que se aumenta de manera incremental. Una forma común para resolver esto es la [arquitectura Medallion](https://www.databricks.com/glossary/medallion-architecture) que divide el proceso de incorporar los datos y re-generar las tablas finales en etapas.
 
 
-Un problema que tiene la arquitectura es que, en muchos casos, es necesario generar los mismos valores en la capa de tiempo real y en la capa batch. Esto en el tiempo genera duplicación de esfuerzo! Consideramos que el centro de verdad de los datos está en la parte batch, entonces muchas veces los campos generados por la _speed layer_ también se recrean en la otra capa para que queden persistidos [^2]. Por otra parte, si tenemos una arquitectura basada en eventos y buscamos que el centro de verdad esté en la parte de _real time_, seguramente nos convenga más una [arquitectura Kappa](https://www.oreilly.com/radar/questioning-the-lambda-architecture/). Prácticamente no hay parte batch y todo se hace con aplicaciones de streams y flujos de procesamiento de tiempo real (Apache Flink, Kafka Streams, Spark Microbatching, etc). Se pueden ver varios recursos para esa arquitectura [acá](https://milinda.pathirage.org/kappa-architecture.com/).
+Un problema que tiene la arquitectura es que, en muchos casos, es necesario generar los mismos valores en la capa de tiempo real y en la capa batch. ¡Esto en el tiempo genera duplicación de esfuerzo! Consideramos que el centro de verdad de los datos está en la parte batch, entonces muchas veces los campos generados por la _speed layer_ también se recrean en la otra capa para que queden persistidos [^2]. Por otra parte, si tenemos una arquitectura basada en eventos y buscamos que el centro de verdad esté en la parte de _real time_, seguramente nos convenga más una [arquitectura Kappa](https://www.oreilly.com/radar/questioning-the-lambda-architecture/). Prácticamente no hay parte batch y todo se hace con aplicaciones de streams y flujos de procesamiento de tiempo real (Apache Flink, Kafka Streams, Spark Microbatching, etc). Se pueden ver varios recursos para esa arquitectura [acá](https://milinda.pathirage.org/kappa-architecture.com/).
 
 [^2]: Además, es mucho más difícil reprocesar en streams que en batch. La idea de la arquitectura Medallion es que sea fácil hacer cambios en las transformaciones de los datos porque siempre se tienen los datos originales crudos, y la separación en etapas hace que sólo sea necesario recalcular desde el punto necesario.
+
+Habiendo introducido las arquitecturas principales, pensemos ahora cómo embeber un modelo en ellas.
 
 ## Patrones
 
@@ -144,7 +146,7 @@ Una opción a mitad de camino entre procesar los pedidos uno-a-uno y procesar lo
   height="500"
   caption="Despliegue con patrón de microbatch. Las observaciones se acumulan en pequeños grupos y se pasa a un job de inferencia sobre lotes, igual al caso de inferencia batch. Se busca una latencia de menos de un segundo." >}}
 
-Lo seductor de este patrón es que pagando el costo de un poco más de latencia comparado con una solución nativa de _streaming_, la implementación se vuelve mucho más sencilla y prácticamente igual que programando un lote a ser procesado en formato batch.
+Lo seductor de este patrón es que pagando el costo de un poco más de latencia comparado con una solución nativa de _streaming_, la implementación se vuelve mucho más sencilla y prácticamente igual que programando por lotes.
 
 Últimamente _microbatching_ es sinónimo de usar Spark para esto. La [documentación](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#overview) es bastante buena y tiene esto para decir sobre las garantías que ofrece:
 
@@ -155,9 +157,9 @@ Lo seductor de este patrón es que pagando el costo de un poco más de latencia 
 
 ### Edge 
 
-La idea de deployar el modelo en el cliente mismo que necesita la predicción la mencionamos como _Edge computing_. Es una gran navaja en términos de escalado pero puede ser un dolor de cabeza en casos donde los dispositivos finales son heterogéneos en capacidades de cómputo, ya que la predicción puede tardar mucho o saturar el dispositivo. 
+La idea de deployar el modelo en el cliente mismo que necesita la predicción la mencionamos como _Edge computing_. Es una gran navaja en términos de escalado pero puede ser un dolor de cabeza en casos cuando los dispositivos finales son heterogéneos en capacidades de cómputo, ya que la predicción puede tardar mucho o saturar el dispositivo. 
 
-El entrenamiento se sigue haciendo en la nube, pero la inferencia se puede hacer local. Nos ahorra el llamado a la red (que puede ser muy lento si estamos en casos de IOT o en regiones con mala conectividad) y puede dar mayores garantías de privacidad. En algunos casos es necesario enviar aún información de la observación eventualmente al servidor para aumentar el tamaño del conjunto de entrenamiento.
+El entrenamiento se sigue haciendo en la nube, pero la inferencia se puede hacer localmente. Nos ahorra el llamado a la red (que puede ser muy lento si estamos en casos de IOT o en regiones con mala conectividad) y puede dar mayores garantías de privacidad. En algunos casos es necesario enviar aún información de la observación eventualmente al servidor para aumentar el tamaño del conjunto de entrenamiento.
 
 En [este post](https://blog.marvik.ai/2023/12/28/edge-computing-deploying-ai-models-into-multiple-edge-devices/) ahondan un poco en el tema y mencionan algunos servicios de AWS que pueden servir para implementarlo (como AWS IOT Greengrass). 
 
