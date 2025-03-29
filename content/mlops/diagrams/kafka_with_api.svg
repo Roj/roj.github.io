@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3140081"
-     inkscape:cx="146.11782"
-     inkscape:cy="441.77809"
+     inkscape:zoom="5.2560324"
+     inkscape:cx="579.14407"
+     inkscape:cy="106.82963"
      inkscape:window-width="3840"
      inkscape:window-height="2070"
      inkscape:window-x="0"
@@ -358,6 +358,18 @@
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
          id="path58574" />
     </marker>
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-3" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-3-7" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -385,9 +397,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-8-2-9);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
          x="24.636719"
          y="94.595596"
-         id="tspan59330"><tspan
+         id="tspan38993"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59328">Broker</tspan></tspan></text>
+           id="tspan38991">Broker</tspan></tspan></text>
     <rect
        style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect994-6-3"
@@ -395,52 +407,6 @@
        height="15.586175"
        x="-48.903217"
        y="18.760454" />
-    <g
-       id="g101044-3"
-       transform="matrix(1.6666667,0,0,1.6666667,-49.819079,-19.243808)">
-      <rect
-         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect20140-8"
-         width="5.6062994"
-         height="1.6899883"
-         x="34.84716"
-         y="25.480724" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.12130089,0,0,0.11709954,28.666463,10.06507)"
-         id="text23600-0"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect23602-8-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.22"
-         x="17.798241"
-         y="0"><tspan
-           x="55.736858"
-           y="140.4069"
-           id="tspan59334"><tspan
-             style="text-align:center;text-anchor:middle;fill:#ffffff"
-             id="tspan59332">Observation</tspan></tspan></text>
-    </g>
-    <g
-       id="g101039-4"
-       transform="matrix(1.6666667,0,0,1.6666667,-49.819079,-20.125753)">
-      <rect
-         style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-         id="rect20140-0-6-4-7"
-         width="5.6062994"
-         height="1.6899883"
-         x="38.151596"
-         y="31.932148" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.12130089,0,0,0.11709954,31.9709,16.516494)"
-         id="text23600-2-1-9-6"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect23602-6-7-1-8-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.22"
-         x="17.798241"
-         y="0"><tspan
-           x="57.377878"
-           y="140.4069"
-           id="tspan59338"><tspan
-             style="text-align:center;text-anchor:middle;fill:#ffffff"
-             id="tspan59336">Prediction</tspan></tspan></text>
-    </g>
     <text
        xml:space="preserve"
        transform="matrix(0.83860348,0,0,0.85292528,-64.120933,-53.948187)"
@@ -448,15 +414,15 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-4);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
          x="24.636719"
          y="93.329388"
-         id="tspan59342"><tspan
+         id="tspan38997"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59340">Message 
+           id="tspan38995">Message 
 </tspan></tspan><tspan
          x="24.636719"
          y="98.231319"
-         id="tspan59346"><tspan
+         id="tspan39001"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59344">application</tspan></tspan></text>
+           id="tspan38999">application</tspan></tspan></text>
     <rect
        style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect994-6-3-6"
@@ -471,9 +437,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-9-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
          x="24.636719"
          y="93.329388"
-         id="tspan59350"><tspan
+         id="tspan39005"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59348">Producer</tspan></tspan></text>
+           id="tspan39003">Producer</tspan></tspan></text>
     <rect
        style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect994-6-3-6-1"
@@ -488,9 +454,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-9-4-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
          x="24.636719"
          y="93.329388"
-         id="tspan59354"><tspan
+         id="tspan39009"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59352">Consumer</tspan></tspan></text>
+           id="tspan39007">Consumer</tspan></tspan></text>
     <rect
        style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect994-6-7-9"
@@ -505,9 +471,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
          x="24.636719"
          y="94.595596"
-         id="tspan59358"><tspan
+         id="tspan39013"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan59356">HTTP API</tspan></tspan></text>
+           id="tspan39011">HTTP API</tspan></tspan></text>
     <ellipse
        id="path65523-8"
        style="fill:#ff6361;stroke:#ff6361;stroke-width:0.440973"
@@ -549,9 +515,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-8-3);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan59362"><tspan
+         id="tspan39017"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59360">POST Request</tspan></tspan></text>
+           id="tspan39015">POST Request</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.44097223,0,0,0.44097223,-40.121823,-9.1886666)"
@@ -559,9 +525,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-1-3-0);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan59366"><tspan
+         id="tspan39021"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59364">Response</tspan></tspan></text>
+           id="tspan39019">Response</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.44097223,0,0,0.44097223,-45.917236,-14.645197)"
@@ -569,9 +535,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2-8-7);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan59370"><tspan
+         id="tspan39025"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59368">Body:</tspan></tspan></text>
+           id="tspan39023">Body:</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.44097223,0,0,0.44097223,-40.258351,-4.4674498)"
@@ -579,9 +545,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2-9-3-8);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan59374"><tspan
+         id="tspan39029"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59372">Body:</tspan></tspan></text>
+           id="tspan39027">Body:</tspan></tspan></text>
     <ellipse
        style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="path127613-5"
@@ -603,9 +569,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-6);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="117.7168"
          y="383.80217"
-         id="tspan59378"><tspan
+         id="tspan39033"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59376">Source queue</tspan></tspan></text>
+           id="tspan39031">Source queue</tspan></tspan></text>
     <rect
        style="fill:#ff6361;fill-opacity:1;stroke:#c56361;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect127841-6"
@@ -637,9 +603,9 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-2-8);fill:#808080;fill-opacity:1;stroke:none"><tspan
          x="117.7168"
          y="383.80217"
-         id="tspan59382"><tspan
+         id="tspan39037"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan59380">Target queue</tspan></tspan></text>
+           id="tspan39035">Target queue</tspan></tspan></text>
     <rect
        style="fill:none;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.5;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.5, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect144284"
@@ -679,5 +645,59 @@
        inkscape:connector-curvature="0"
        inkscape:connection-start="#path127613-5-5"
        inkscape:connection-end="#rect994-6-3-6-1" />
+    <g
+       id="g101044"
+       transform="matrix(2,0,0,2,-61.766601,-28.001543)"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#bc5090;fill-opacity:1;stroke:#bc5090;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140"
+         width="5.6062994"
+         height="1.6899883"
+         x="34.84716"
+         y="25.480724" />
+    </g>
+    <g
+       id="g101039"
+       transform="matrix(2,0,0,2,-62.496098,-30.757114)"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
+      <rect
+         style="fill:#ff6361;fill-opacity:1;stroke:#ff6361;stroke-width:0.165;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:0;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+         id="rect20140-0-6-4"
+         width="5.6062994"
+         height="1.6899883"
+         x="38.151596"
+         y="31.932148" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.0063242,0,0,1.0235103,-15.909368,-68.139051)"
+       id="text54066-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.39042px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="24.636719"
+         y="91.122439"
+         id="tspan39041"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#ffffff"
+           id="tspan39039">Observation</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(1.0063242,0,0,1.0235103,-9.779934,-57.865896)"
+       id="text54066-6-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.39042px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-3-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="24.636719"
+         y="91.122439"
+         id="tspan39045"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#ffffff"
+           id="tspan39043">Prediction</tspan></tspan></text>
   </g>
 </svg>

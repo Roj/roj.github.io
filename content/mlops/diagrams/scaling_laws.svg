@@ -7,9 +7,32 @@
    viewBox="0 0 162.73717 136.2614"
    version="1.1"
    id="svg52459"
+   sodipodi:docname="scaling_laws.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2979"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.7281141"
+     inkscape:cx="311.62089"
+     inkscape:cy="320.43705"
+     inkscape:window-width="3840"
+     inkscape:window-height="2070"
+     inkscape:window-x="0"
+     inkscape:window-y="42"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52459" />
   <defs
      id="defs52456">
     <rect
@@ -103,457 +126,453 @@
        height="18.050682"
        id="rect54068-6-8-1-5" />
   </defs>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect144284-6-3"
+     width="25.030411"
+     height="34.394367"
+     x="83.603905"
+     y="57.563606" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect144284-6-7"
+     width="35.408379"
+     height="40.997097"
+     x="119.22959"
+     y="52.609928" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#7e7e7e;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect144284-6-2"
+     width="162.23717"
+     height="135.7614"
+     x="0.24999912"
+     y="0.24999872" />
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-9-0"
+     width="42.418304"
+     height="15.586175"
+     x="14.058414"
+     y="17.917555" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,-0.239557,-63.897357)"
+     id="text54066-7-06-5"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="94.595596"
+       id="tspan37315"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37313">HTTP API</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-9-0-1"
+     width="33.995434"
+     height="11.992539"
+     x="73.945854"
+     y="18.913673" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,52.000894,-63.862726)"
+     id="text54066-7-06-5-0"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="93.481655"
+       id="tspan37319"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37317">Load Balancer</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-9-0-1-3"
+     width="33.995434"
+     height="11.992539"
+     x="119.30157"
+     y="5.5238347" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,99.053374,-77.306211)"
+     id="text54066-7-06-5-0-7"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="93.481655"
+       id="tspan37323"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37321">API Instance</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-9-0-1-3-2"
+     width="33.995434"
+     height="11.992539"
+     x="119.36532"
+     y="19.19813" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,99.117144,-63.631916)"
+     id="text54066-7-06-5-0-7-6"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="93.481655"
+       id="tspan37327"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37325">API Instance</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-9-0-1-3-5"
+     width="33.995434"
+     height="11.992539"
+     x="119.2317"
+     y="32.76907" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,98.983544,-50.060974)"
+     id="text54066-7-06-5-0-7-2"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1-4);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="93.481655"
+       id="tspan37331"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37329">API Instance</tspan></tspan></text>
   <g
-     id="layer1"
-     transform="translate(-60.587346,18.395785)">
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000006;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect144284-6-3"
-       width="25.030411"
-       height="34.394367"
-       x="144.19125"
-       y="39.16782" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000006;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect144284-6-7"
-       width="35.408379"
-       height="40.997097"
-       x="179.81694"
-       y="34.214142" />
-    <rect
-       style="fill:none;fill-opacity:1;stroke:#000006;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:0.499998, 1.5;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect144284-6-2"
-       width="162.23717"
-       height="135.7614"
-       x="60.837345"
-       y="-18.145786" />
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-9-0"
-       width="42.418304"
-       height="15.586175"
-       x="74.64576"
-       y="-0.47823057" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,60.347789,-82.293142)"
-       id="text54066-7-06-5"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.2197px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="94.595596"
-         id="tspan53289"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53287">HTTP API</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-9-0-1"
-       width="33.995434"
-       height="11.992539"
-       x="134.5332"
-       y="0.51788867" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,112.58824,-82.258511)"
-       id="text54066-7-06-5-0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="93.481655"
-         id="tspan53293"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53291">Load Balancer</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-9-0-1-3"
-       width="33.995434"
-       height="11.992539"
-       x="179.88892"
-       y="-12.87195" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,159.64072,-95.701996)"
-       id="text54066-7-06-5-0-7"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="93.481655"
-         id="tspan53297"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53295">API Instance</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-9-0-1-3-2"
-       width="33.995434"
-       height="11.992539"
-       x="179.95267"
-       y="0.80234426" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,159.70449,-82.027701)"
-       id="text54066-7-06-5-0-7-6"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="93.481655"
-         id="tspan53301"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53299">API Instance</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-9-0-1-3-5"
-       width="33.995434"
-       height="11.992539"
-       x="179.81905"
-       y="14.373286" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,159.57089,-68.456759)"
-       id="text54066-7-06-5-0-7-2"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.99154px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-2-9-0-1-4);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="93.481655"
-         id="tspan53305"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53303">API Instance</tspan></tspan></text>
+     transform="matrix(0.66334551,0,0,0.66334551,2.759976,-26.993164)"
+     id="g160592"
+     style="stroke-width:2.51252">
     <g
-       transform="matrix(0.66334551,0,0,0.66334551,63.347322,-45.388949)"
-       id="g160592"
+       id="g2192"
        style="stroke-width:2.51252">
       <g
-         id="g2192"
-         style="stroke-width:2.51252">
+         style="fill:#7e7e7e;fill-opacity:1;stroke-width:2.51252"
+         id="g424">
         <g
-           style="fill:#000000;fill-opacity:1;stroke-width:2.51252"
-           id="g424">
-          <g
-             id="use1792"
-             style="stroke-width:2.51252"
-             transform="translate(91.925003,81.962997)">
-            <path
-               style="stroke:none"
-               d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
-               id="path52956" />
-          </g>
+           id="use1792"
+           style="stroke-width:2.51252;fill:#7e7e7e;fill-opacity:1"
+           transform="translate(91.925003,81.962997)">
+          <path
+             style="stroke:none;fill:#7e7e7e;fill-opacity:1"
+             d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
+             id="path52956" />
         </g>
       </g>
     </g>
-    <g
-       transform="matrix(0.66334551,0,0,0.66334551,72.970273,-7.0353091)"
-       id="g160592-6"
-       style="stroke-width:2.51252">
-      <g
-         id="g2192-3"
-         style="stroke-width:2.51252">
-        <g
-           style="fill:#000000;fill-opacity:1;stroke-width:2.51252"
-           id="g424-7">
-          <g
-             id="use1792-6"
-             style="stroke-width:2.51252"
-             transform="translate(91.925003,81.962997)">
-            <path
-               style="stroke:none"
-               d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
-               id="path52960" />
-          </g>
-        </g>
-      </g>
-    </g>
-    <g
-       transform="matrix(0.66334551,0,0,0.66334551,88.318073,48.91782)"
-       id="g160592-6-4"
-       style="stroke-width:2.51252">
-      <g
-         id="g2192-3-3"
-         style="stroke-width:2.51252">
-        <g
-           style="fill:#000000;fill-opacity:1;stroke-width:2.51252"
-           id="g424-7-8">
-          <g
-             id="use1792-6-6"
-             style="stroke-width:2.51252"
-             transform="translate(91.925003,81.962997)">
-            <path
-               style="stroke:none"
-               d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
-               id="path52964" />
-          </g>
-        </g>
-      </g>
-    </g>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 168.52864,1.4961204 11.36028,-3.3537629"
-       id="path163754" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 168.52864,6.6206126 11.42403,0.071547"
-       id="path163756" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 168.52864,11.714683 11.29041,3.454349"
-       id="path163758" />
-    <rect
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect127841-5-5"
-       width="15.278749"
-       height="3.662946"
-       x="66.384933"
-       y="42.873962" />
-    <ellipse
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-5-0-0"
-       cx="81.706131"
-       cy="44.705425"
-       rx="1.4108382"
-       ry="1.831473" />
-    <ellipse
-       style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-1-8"
-       cx="66.694511"
-       cy="44.705425"
-       rx="1.5907429"
-       ry="1.831473" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,17.880421,-118.57922)"
-       id="text131299-9-3"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53309"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53307">Queue</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-3-7-5"
-       width="29.220909"
-       height="15.586175"
-       x="99.653572"
-       y="37.021011" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.83860348,0,0,0.85292528,83.225873,-35.742428)"
-       id="text54066-8-3-7"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
-         x="24.636719"
-         y="93.329388"
-         id="tspan53313"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53311">Message 
-</tspan></tspan><tspan
-         x="24.636719"
-         y="98.231319"
-         id="tspan53317"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53315">application</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 83.116947,44.710134 16.536625,0.0552"
-       id="path196125" />
-    <rect
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect127841-5-5-0"
-       width="15.278749"
-       height="3.662946"
-       x="148.40112"
-       y="42.705029" />
-    <ellipse
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-5-0-0-6"
-       cx="163.72232"
-       cy="44.536491"
-       rx="1.4108382"
-       ry="1.831473" />
-    <ellipse
-       style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-1-8-5"
-       cx="148.71071"
-       cy="44.536491"
-       rx="1.5907429"
-       ry="1.831473" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,97.011873,-119.12482)"
-       id="text131299-9-3-0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53321"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53319">Partition 1</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,101.04587,-92.251469)"
-       id="text131299-9-3-0-034"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-0);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53325"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53323">Queue</tspan></tspan></text>
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,140.53877,-90.422209)"
-       id="text131299-9-3-0-034-2"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-0-9);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53329"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53327">Consumer </tspan></tspan><tspan
-         x="117.7168"
-         y="390.63952"
-         id="tspan53333"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53331">group</tspan></tspan></text>
-    <rect
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect127841-5-5-0-6"
-       width="15.278749"
-       height="3.662946"
-       x="148.33287"
-       y="52.352814" />
-    <ellipse
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-5-0-0-6-9"
-       cx="163.65407"
-       cy="54.184277"
-       rx="1.4108382"
-       ry="1.831473" />
-    <ellipse
-       style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-1-8-5-1"
-       cx="148.64244"
-       cy="54.184277"
-       rx="1.5907429"
-       ry="1.831473" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,96.943606,-109.47704)"
-       id="text131299-9-3-0-0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-2);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53337"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53335">Partition 2</tspan></tspan></text>
-    <rect
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect127841-5-5-0-2"
-       width="15.278749"
-       height="3.662946"
-       x="148.48637"
-       y="61.981575" />
-    <ellipse
-       style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-5-0-0-6-7"
-       cx="163.80757"
-       cy="63.813034"
-       rx="1.4108382"
-       ry="1.831473" />
-    <ellipse
-       style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       id="path127613-1-8-5-4"
-       cx="148.79594"
-       cy="63.813034"
-       rx="1.5907429"
-       ry="1.831473" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.44097223,0,0,0.44097223,97.097106,-99.848273)"
-       id="text131299-9-3-0-03"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-4);fill:#000000;fill-opacity:1;stroke:none"><tspan
-         x="117.7168"
-         y="383.80217"
-         id="tspan53341"><tspan
-           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan53339">Partition 3</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-3-7-5-8"
-       width="29.220909"
-       height="15.586175"
-       x="181.66977"
-       y="36.852077" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.83860348,0,0,0.85292528,165.24204,-35.911363)"
-       id="text54066-8-3-7-1"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
-         x="24.636719"
-         y="93.329388"
-         id="tspan53345"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53343">Message 
-</tspan></tspan><tspan
-         x="24.636719"
-         y="98.231319"
-         id="tspan53349"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53347">application</tspan></tspan></text>
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-3-7-5-8-8"
-       width="29.220909"
-       height="15.586175"
-       x="181.90445"
-       y="56.165977" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.83860348,0,0,0.85292528,165.47674,-16.597461)"
-       id="text54066-8-3-7-1-0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90-5-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
-         x="24.636719"
-         y="93.329388"
-         id="tspan53353"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53351">Message 
-</tspan></tspan><tspan
-         x="24.636719"
-         y="98.231319"
-         id="tspan53357"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53355">application</tspan></tspan></text>
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 165.13314,44.5412 16.53663,0.0552"
-       id="path208852" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 165.02924,54.593336 16.87521,5.019701"
-       id="path208854" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 165.21838,63.819333 16.68607,0.0745"
-       id="path208856" />
-    <image
-       width="15.296049"
-       height="13.345022"
-       preserveAspectRatio="none"
-       xlink:href="data:image/png;base64,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 "
-       id="image222188"
-       x="159.25943"
-       y="95.08358"
-       style="stroke-width:5.65052" />
-    <rect
-       style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       id="rect994-6-7-7-4-2"
-       width="42.418304"
-       height="15.586175"
-       x="102.14988"
-       y="93.847282" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.94878934,0,0,0.96622202,81.067189,10.206218)"
-       id="text54066-7-0-63-4"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.60562px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-8-1-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
-         x="24.636719"
-         y="94.038625"
-         id="tspan53361"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53359">Serverless </tspan></tspan><tspan
-         x="24.636719"
-         y="99.943029"
-         id="tspan53365"><tspan
-           style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan53363">service</tspan></tspan></text>
   </g>
+  <g
+     transform="matrix(0.66334551,0,0,0.66334551,12.382927,11.360476)"
+     id="g160592-6"
+     style="stroke-width:2.51252;fill:#808080;fill-opacity:1">
+    <g
+       id="g2192-3"
+       style="stroke-width:2.51252;fill:#808080;fill-opacity:1">
+      <g
+         style="fill:#808080;fill-opacity:1;stroke-width:2.51252"
+         id="g424-7">
+        <g
+           id="use1792-6"
+           style="stroke-width:2.51252;fill:#808080;fill-opacity:1"
+           transform="translate(91.925003,81.962997)">
+          <path
+             style="stroke:none;fill:#808080;fill-opacity:1"
+             d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
+             id="path52960" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     transform="matrix(0.66334551,0,0,0.66334551,27.730727,67.313605)"
+     id="g160592-6-4"
+     style="stroke-width:2.51252;fill:#808080;fill-opacity:1">
+    <g
+       id="g2192-3-3"
+       style="stroke-width:2.51252;fill:#808080;fill-opacity:1">
+      <g
+         style="fill:#808080;fill-opacity:1;stroke-width:2.51252"
+         id="g424-7-8">
+        <g
+           id="use1792-6-6"
+           style="stroke-width:2.51252;fill:#808080;fill-opacity:1"
+           transform="translate(91.925003,81.962997)">
+          <path
+             style="stroke:none;fill:#808080;fill-opacity:1"
+             d="m 6.84375,-4.234375 c 0.171875,0 0.359375,0 0.359375,-0.1875 C 7.203125,-4.625 7.015625,-4.625 6.84375,-4.625 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.203125 0,0.1875 0.203125,0.1875 0.359375,0.1875 z m 0,3.875 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 h -5.9375 c -0.15625,0 -0.359375,0 -0.359375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,-1.9375 c 0.171875,0 0.359375,0 0.359375,-0.203125 0,-0.1875 -0.1875,-0.1875 -0.359375,-0.1875 H 0.890625 c -0.15625,0 -0.34375,0 -0.34375,0.1875 0,0.203125 0.1875,0.203125 0.34375,0.203125 z m 0,0"
+             id="path52964" />
+        </g>
+      </g>
+    </g>
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 107.94129,19.891905 11.36028,-3.353763"
+     id="path163754" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 107.94129,25.016398 11.42403,0.07155"
+     id="path163756" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 107.94129,30.110468 11.29041,3.454349"
+     id="path163758" />
+  <rect
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect127841-5-5"
+     width="15.278749"
+     height="3.662946"
+     x="5.7975874"
+     y="61.269749" />
+  <ellipse
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-5-0-0"
+     cx="21.118786"
+     cy="63.101212"
+     rx="1.4108382"
+     ry="1.831473" />
+  <ellipse
+     style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-1-8"
+     cx="6.1071653"
+     cy="63.101212"
+     rx="1.5907429"
+     ry="1.831473" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,-42.706925,-100.18344)"
+     id="text131299-9-3"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37335"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37333">Queue</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-3-7-5"
+     width="29.220909"
+     height="15.586175"
+     x="39.066227"
+     y="55.416798" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.83860348,0,0,0.85292528,22.638527,-17.346643)"
+     id="text54066-8-3-7"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+       x="24.636719"
+       y="93.329388"
+       id="tspan37339"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37337">Message 
+</tspan></tspan><tspan
+       x="24.636719"
+       y="98.231319"
+       id="tspan37343"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37341">application</tspan></tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 22.529601,63.105919 16.536625,0.0552"
+     id="path196125" />
+  <rect
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect127841-5-5-0"
+     width="15.278749"
+     height="3.662946"
+     x="87.813774"
+     y="61.100815" />
+  <ellipse
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-5-0-0-6"
+     cx="103.13497"
+     cy="62.932278"
+     rx="1.4108382"
+     ry="1.831473" />
+  <ellipse
+     style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-1-8-5"
+     cx="88.12336"
+     cy="62.932278"
+     rx="1.5907429"
+     ry="1.831473" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,36.424527,-100.72903)"
+     id="text131299-9-3-0"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37347"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37345">Partition 1</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,40.458524,-73.855684)"
+     id="text131299-9-3-0-034"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-0);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37351"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37349">Queue</tspan></tspan></text>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,79.951424,-72.026424)"
+     id="text131299-9-3-0-034-2"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-0-9);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37355"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37353">Consumer </tspan></tspan><tspan
+       x="117.7168"
+       y="390.63952"
+       id="tspan37359"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37357">group</tspan></tspan></text>
+  <rect
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect127841-5-5-0-6"
+     width="15.278749"
+     height="3.662946"
+     x="87.745522"
+     y="70.748596" />
+  <ellipse
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-5-0-0-6-9"
+     cx="103.06672"
+     cy="72.580063"
+     rx="1.4108382"
+     ry="1.831473" />
+  <ellipse
+     style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-1-8-5-1"
+     cx="88.055092"
+     cy="72.580063"
+     rx="1.5907429"
+     ry="1.831473" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,36.35626,-91.081255)"
+     id="text131299-9-3-0-0"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-2);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37363"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37361">Partition 2</tspan></tspan></text>
+  <rect
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect127841-5-5-0-2"
+     width="15.278749"
+     height="3.662946"
+     x="87.899025"
+     y="80.377357" />
+  <ellipse
+     style="fill:#bc5090;fill-opacity:1;stroke:#a15090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-5-0-0-6-7"
+     cx="103.22022"
+     cy="82.208817"
+     rx="1.4108382"
+     ry="1.831473" />
+  <ellipse
+     style="fill:#a65090;fill-opacity:1;stroke:#8c5090;stroke-width:0.275;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+     id="path127613-1-8-5-4"
+     cx="88.208595"
+     cy="82.208817"
+     rx="1.5907429"
+     ry="1.831473" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.44097223,0,0,0.44097223,36.50976,-81.452488)"
+     id="text131299-9-3-0-03"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect131301-1-1-1-4);fill:#818181;fill-opacity:1;stroke:none"><tspan
+       x="117.7168"
+       y="383.80217"
+       id="tspan37367"><tspan
+         style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
+         id="tspan37365">Partition 3</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-3-7-5-8"
+     width="29.220909"
+     height="15.586175"
+     x="121.08242"
+     y="55.247864" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.83860348,0,0,0.85292528,104.65469,-17.515578)"
+     id="text54066-8-3-7-1"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+       x="24.636719"
+       y="93.329388"
+       id="tspan37371"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37369">Message 
+</tspan></tspan><tspan
+       x="24.636719"
+       y="98.231319"
+       id="tspan37375"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37373">application</tspan></tspan></text>
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-3-7-5-8-8"
+     width="29.220909"
+     height="15.586175"
+     x="121.3171"
+     y="74.56176" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.83860348,0,0,0.85292528,104.88939,1.798324)"
+     id="text54066-8-3-7-1-0"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.82366px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-9-8-90-5-2);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"><tspan
+       x="24.636719"
+       y="93.329388"
+       id="tspan37379"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37377">Message 
+</tspan></tspan><tspan
+       x="24.636719"
+       y="98.231319"
+       id="tspan37383"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37381">application</tspan></tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 104.54579,62.936985 16.53663,0.0552"
+     id="path208852" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 104.44189,72.989121 16.87521,5.019701"
+     id="path208854" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#7e7e7e;stroke-width:0.440972px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 104.63103,82.215118 16.68607,0.0745"
+     id="path208856" />
+  <image
+     width="15.296049"
+     height="13.345022"
+     preserveAspectRatio="none"
+     xlink:href="data:image/png;base64,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 "
+     id="image222188"
+     x="98.672081"
+     y="113.47936"
+     style="stroke-width:5.65052" />
+  <rect
+     style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.441667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect994-6-7-7-4-2"
+     width="42.418304"
+     height="15.586175"
+     x="41.562534"
+     y="112.24306" />
+  <text
+     xml:space="preserve"
+     transform="matrix(0.94878934,0,0,0.96622202,20.479843,28.602003)"
+     id="text54066-7-0-63-4"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.60562px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-6-8-1-5);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.460562"><tspan
+       x="24.636719"
+       y="94.038625"
+       id="tspan37387"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37385">Serverless </tspan></tspan><tspan
+       x="24.636719"
+       y="99.943029"
+       id="tspan37391"><tspan
+         style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
+         id="tspan37389">service</tspan></tspan></text>
 </svg>

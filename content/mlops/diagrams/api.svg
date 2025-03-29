@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="148.32753mm"
-   height="21.256884mm"
-   viewBox="0 0 74.163763 10.628442"
-   version="1.1"
-   id="svg226774"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="api.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   id="svg226774"
+   version="1.1"
+   viewBox="0 0 74.163763 10.628442"
+   height="21.256884mm"
+   width="148.32753mm"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -23,10 +23,10 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.3140081"
-     inkscape:cx="263.31648"
-     inkscape:cy="157.15276"
-     inkscape:window-width="3072"
+     inkscape:zoom="10.512065"
+     inkscape:cx="262.17494"
+     inkscape:cy="29.347232"
+     inkscape:window-width="3840"
      inkscape:window-height="2070"
      inkscape:window-x="0"
      inkscape:window-y="42"
@@ -35,11 +35,25 @@
      scale-x="2" />
   <defs
      id="defs226771">
+    <marker
+       style="overflow:visible;"
+       id="marker33088"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path32830" />
+    </marker>
     <rect
        x="50.679115"
        y="135.73965"
-       width="46.218121"
-       height="14.43207"
+       width="38.178144"
+       height="7.4275372"
        id="rect23602" />
     <rect
        x="50.679115"
@@ -111,6 +125,18 @@
        width="54.030468"
        height="7.6809587"
        id="rect75871-2-9" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-3" />
+    <rect
+       x="24.635933"
+       y="89.861542"
+       width="42.77256"
+       height="10.062683"
+       id="rect54068-3-7" />
   </defs>
   <g
      inkscape:label="Layer 1"
@@ -140,18 +166,6 @@
          height="1.6899883"
          x="34.84716"
          y="25.480724" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.12130089,0,0,0.11709954,28.666463,10.06507)"
-         id="text23600"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect23602);fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.22"
-         x="17.798241"
-         y="0"><tspan
-           x="55.736858"
-           y="140.4069"
-           id="tspan227226"><tspan
-             style="text-align:center;text-anchor:middle;fill:#ffffff"
-             id="tspan227224">Observation</tspan></tspan></text>
     </g>
     <g
        id="g101039"
@@ -166,18 +180,6 @@
          height="1.6899883"
          x="38.151596"
          y="31.932148" />
-      <text
-         xml:space="preserve"
-         transform="matrix(0.12130089,0,0,0.11709954,31.9709,16.516494)"
-         id="text23600-2-1-9"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect23602-6-7-1);fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.22"
-         x="17.798241"
-         y="0"><tspan
-           x="57.377878"
-           y="140.4069"
-           id="tspan227230"><tspan
-             style="text-align:center;text-anchor:middle;fill:#ffffff"
-             id="tspan227228">Prediction</tspan></tspan></text>
     </g>
     <text
        xml:space="preserve"
@@ -189,9 +191,35 @@
        inkscape:export-ydpi="300"><tspan
          x="24.636719"
          y="95.221054"
-         id="tspan227234"><tspan
+         id="tspan33865"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan227232">HTTP Client</tspan></tspan></text>
+           id="tspan33863">HTTP Client</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.50316208,0,0,0.51175516,24.561619,64.225251)"
+       id="text54066-6"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.39042px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-3);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="24.636719"
+         y="91.122439"
+         id="tspan33869"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#ffffff"
+           id="tspan33867">Observation</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.50316208,0,0,0.51175516,28.022476,70.288783)"
+       id="text54066-6-5"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:1.39042px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect54068-3-7);fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.521408"
+       inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="24.636719"
+         y="91.122439"
+         id="tspan33873"><tspan
+           style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#ffffff"
+           id="tspan33871">Prediction</tspan></tspan></text>
     <rect
        style="fill:#ffa600;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect994-6-7"
@@ -212,9 +240,9 @@
        inkscape:export-ydpi="300"><tspan
          x="24.636719"
          y="94.595596"
-         id="tspan227238"><tspan
+         id="tspan33877"><tspan
            style="font-family:'Fira Code';-inkscape-font-specification:'Fira Code Bold'"
-           id="tspan227236">HTTP API</tspan></tspan></text>
+           id="tspan33875">HTTP API</tspan></tspan></text>
     <ellipse
        id="path65523"
        style="fill:#ff6361;stroke:#ff6361;stroke-width:0.264584"
@@ -254,70 +282,71 @@
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       style="fill:none;stroke:#818181;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
        d="M 29.963523,108.97745 H 47.780107"
        id="path65749"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend-2)"
-       d="M 47.991336,115.00686 H 30.174752"
+       style="fill:none;stroke:#818181;stroke-width:0.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.9;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker33088)"
+       d="M 47.991336,115.00686 H 31.256425 30.174752"
        id="path65749-9"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
+       inkscape:export-ydpi="300"
+       sodipodi:nodetypes="ccc" />
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.7432179,83.94422)"
        id="text75869"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871);fill:#808080;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan227242"><tspan
+         id="tspan33881"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan227240">POST Request</tspan></tspan></text>
+           id="tspan33879">POST Request</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,7.4513562,90.327088)"
        id="text75869-0"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-1);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-1);fill:#808080;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan227246"><tspan
+         id="tspan33885"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan227244">Response</tspan></tspan></text>
+           id="tspan33883">Response</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,3.9741082,87.053172)"
        id="text75869-8"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2);fill:#808080;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan227250"><tspan
+         id="tspan33889"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan227248">Body:</tspan></tspan></text>
+           id="tspan33887">Body:</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.26458333,0,0,0.26458333,7.3694392,93.159825)"
        id="text75869-8-9"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2-9);fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.33333px;line-height:1.25;font-family:'TeX Gyre Termes Math';-inkscape-font-specification:'TeX Gyre Termes Math Bold';letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect75871-2-9);fill:#808080;fill-opacity:1;stroke:none"
        inkscape:export-filename="/home/joaquintz/res/roj.github.io/content/mlops/api.svg"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          x="104.58594"
          y="90.349049"
-         id="tspan227254"><tspan
+         id="tspan33893"><tspan
            style="font-weight:300;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light'"
-           id="tspan227252">Body:</tspan></tspan></text>
+           id="tspan33891">Body:</tspan></tspan></text>
   </g>
 </svg>
